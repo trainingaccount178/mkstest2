@@ -6333,6 +6333,14 @@ transition:.5s;
 	bottom:-10%;
 	z-index:1;
 }
+.di-small-3{
+	position:absolute;
+	width:40%;
+	height:60%;
+	right:-10%;
+	bottom:-10%;
+	z-index:1;
+}
 
 /* schedule */
 
