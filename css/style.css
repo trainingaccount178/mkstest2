@@ -6330,6 +6330,7 @@ transition:.5s;
 	right:-10%;
 	bottom:-10%;
 	z-index:1;
+	border-radius: 50% !important;
 }
 /*  */
 .de-images-alt{
@@ -6343,6 +6344,7 @@ transition:.5s;
 	top:75%;
 	left:-35%;
 	z-index:-1;	
+	
 }
 .di-small-2-alt{
 	position:absolute;
@@ -6351,6 +6353,7 @@ transition:.5s;
 	right:0%;
 	bottom:-10%;
 	z-index:1;
+	border-radius: 50%;
 }
 
 /* .de-images-alt img{
@@ -6370,6 +6373,7 @@ transition:.5s;
 	right:-10%;
 	bottom:-10%;
 	z-index:1;
+	border-radius: 50% !important;
 }
 
 /* schedule */
