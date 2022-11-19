@@ -1,3 +1,15 @@
+.speakeralign {
+  display: block;
+  margin-left: 400px !important;
+  margin-right: 400px !important;
+}
+@media screen and (max-width: 600px) {
+  .speakeralign {
+    display: block;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+}
 .centraligntest1 {
   text-align: center;
 }
