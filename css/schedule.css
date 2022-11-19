@@ -1,0 +1,26 @@
+.invis {
+  display: none;
+}
+.btn-show {
+  font-weight: 500;
+  font-size: 12px;
+  padding: 10px 20px;
+  background-color: var(--primary-color-1);
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font: "Merriweather", serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-right: 40%;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .btn-show {
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 10px 20px 10px 20px;
+  }
+}
