@@ -136,11 +136,11 @@
   align-items: center;
   justify-content: center;
 }
-/* .tickettext {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  flex-direction: column;
-  padding-right: 100px; 
-} */
+.tickettext {
+  margin-right: 25%;
+}
+@media screen and (max-width: 600px) {
+  .tickettext {
+    margin: auto;
+  }
+}
