@@ -2342,6 +2342,7 @@ border:solid 1px #ddd;
 	.sponsor-heading{
 		font-family: 'Lora',Arial, Helvetica, sans-serif;
 		font-size:42px;
+		line-height: 45px;
 	}
 	.sponsor-names{
 		font-family: 'Lora',Arial, Helvetica, sans-serif;
@@ -6327,7 +6328,7 @@ transition:.5s;
 	position:absolute;
 	width:35%;
 	height:50%;
-	right:-10%;
+	right:-5%;
 	bottom:-10%;
 	z-index:1;
 	border-radius: 50% !important;
@@ -6370,7 +6371,7 @@ transition:.5s;
 	position:absolute;
 	width:40%;
 	height:60%;
-	right:-10%;
+	right:-5%;
 	bottom:-10%;
 	z-index:1;
 	border-radius: 50% !important;

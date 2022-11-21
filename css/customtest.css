@@ -131,3 +131,16 @@
     padding: 10px 20px 10px 20px;
   }
 }
+
+.ticketcenter {
+  align-items: center;
+  justify-content: center;
+}
+/* .tickettext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  padding-right: 100px; 
+} */
