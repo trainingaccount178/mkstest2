@@ -74,11 +74,11 @@ font-size: 72px;
 	user-select: none;
   }
 .blurbox1 {
-	-webkit-filter: blur(17px);
-	-moz-filter: blur(17px);
-	-o-filter: blur(17px);
-	-ms-filter: blur(17px);
-	filter: blur(17px);  
+	-webkit-filter: blur(30px);
+	-moz-filter: blur(30px);
+	-o-filter: blur(30px);
+	-ms-filter: blur(30px);
+	filter: blur(30px);  
 	user-select: none;
   }
 
@@ -6823,6 +6823,14 @@ display:table;
 .logo2{
 	height:20%;	
 	padding-bottom: 100px;
+	padding-right: 30px !important;
+	margin-right: 5px !important;
+}
+@media screen and (max-width: 600px) {
+	.logo2{
+		padding-right: 0px !important;
+		margin-right: 0px !important;
+	}
 }
 /* ================================================== */
 /* R E S P O N S I V E */
