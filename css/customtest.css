@@ -139,8 +139,33 @@
 .tickettext {
   margin-right: 25%;
 }
+
+.speakeralign {
+  z-index: 1;
+  /* display: none; */
+}
+.comingsoon {
+  font-size: 2rem;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  height: 100%;
+  /* border: 2px solid red; */
+  /* position: absolute; */
+}
+
+.hidden2 {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .tickettext {
     margin: auto;
+  }
+  .comingsoon {
+    font-size: 1.5rem;
   }
 }
