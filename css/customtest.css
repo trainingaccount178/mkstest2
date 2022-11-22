@@ -147,13 +147,13 @@
   /* display: none; */
 }
 .comingsoon {
-  font-size: 2rem;
+  font-size: 48px;
   z-index: 20;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding: 20px;
+  /* padding: 20px; */
   height: 100%;
   /* border: 2px solid red; */
   /* position: absolute; */
