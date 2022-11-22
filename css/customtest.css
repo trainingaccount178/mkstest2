@@ -162,6 +162,9 @@
 .hidden2 {
   display: none;
 }
+.btn-position {
+  position: relative;
+}
 
 @media screen and (max-width: 600px) {
   .tickettext {
@@ -175,4 +178,8 @@
     margin-top: 10px;
     padding: 5px 10px;
   }
+}
+
+.invis {
+  display: none;
 }
