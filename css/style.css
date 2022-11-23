@@ -4607,7 +4607,7 @@ a.btn-right {
 		flex-direction: column;
 		justify-content: center;
 
-		font-size: 0.5rem;
+		font-size: 0.9rem;
 		height: fit-content !important;
 	/* margin: auto; */
 
@@ -4623,6 +4623,7 @@ a.btn-right {
 		
 		padding: 0;
 		margin: auto 1rem;
+		margin-bottom: 1rem;
 	}
 
 	.contact {
