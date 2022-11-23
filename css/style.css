@@ -5973,14 +5973,14 @@ img {
 }
 
 .wm.dark.wm-border {
-	font-size: 280px;
+	font-size: 240px;
 	color: rgba(0, 0, 0, 0);
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: rgba(255, 255, 255, .15);
 }
 
 .wm.light.wm-border {
-	font-size: 280px;
+	font-size: 240px;
 	color: rgba(0, 0, 0, 0);
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: rgba(0, 0, 0, .1);

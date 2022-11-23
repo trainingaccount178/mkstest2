@@ -183,3 +183,22 @@
 .invis {
   display: none;
 }
+/* ipad media query */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .wm {
+    font-size: 150px;
+    position: static;
+  }
+
+  .wm.dark.wm-border {
+    font-size: 150px;
+  }
+  .custom-sm-4 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 20px;
+  }
+  .sc-info {
+    width: 100% !important;
+  }
+}
