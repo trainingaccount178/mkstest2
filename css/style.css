@@ -4609,7 +4609,7 @@ a.btn-right {
 
 		font-size: 0.9rem;
 		height: fit-content !important;
-	/* margin: auto; */
+		/* margin: auto; */
 
 	}
 
@@ -4620,7 +4620,7 @@ a.btn-right {
 
 	.footer-sec img {
 		/* margin-left: -8vw; */
-		
+
 		padding: 0;
 		margin: auto 1rem;
 		margin-bottom: 1rem;
@@ -4629,7 +4629,7 @@ a.btn-right {
 	.contact {
 		padding: 0;
 	}
-	
+
 	.contact ul {
 		list-style: none;
 	}
@@ -4646,7 +4646,7 @@ a.btn-right {
 		margin: auto 0.5rem;
 	}
 
-	
+
 }
 
 .contact {
@@ -4665,6 +4665,48 @@ a.btn-right {
 	padding: 0;
 }
 
+/* Modal */
+
+.modal {
+	color: white
+}
+
+.modal-footer {
+	background-color: #111111;
+}
+
+.modal-header {
+	background-color: #111111;
+	color: white
+}
+
+.modal-body {
+	background-color: #111111;
+	color: white
+}
+
+.modal-txt {
+	border-color: var(--primary-color-1);
+	color: var(--primary-color-1);
+}
+
+.modal-body ul li {
+	text-align: left;
+	padding: 1rem auto;
+}
+
+.modal-txt:hover {
+	border-color: var(--primary-color-1);
+	background-color: var(--primary-color-1);
+	/* color: white; */
+}
+
+@media all and (max-width: 768px) {
+	.modal {
+		
+		font-size: 0.8rem;
+	}
+}
 
 /* testimonial
 	/* ================================================== */
