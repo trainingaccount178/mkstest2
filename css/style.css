@@ -6032,12 +6032,12 @@ img {
 /* Media query 1/11 */
 @media screen and (max-width: 600px) {
 	.wm {
-		font-size: 90px;
+		font-size: 75px;
 		position: static;
 	}
 
 	.wm.dark.wm-border {
-		font-size: 90px;
+		font-size: 75px;
 	}
 
 	h1 {
