@@ -6032,12 +6032,12 @@ img {
 /* Media query 1/11 */
 @media screen and (max-width: 600px) {
 	.wm {
-		font-size: 90px;
+		font-size: 75px;
 		position: static;
 	}
 
 	.wm.dark.wm-border {
-		font-size: 90px;
+		font-size: 75px;
 	}
 
 	h1 {
@@ -6178,7 +6178,48 @@ img {
 		opacity: 0;
 	}
 }
+/* Modal */
 
+.modal {
+    color: white
+}
+
+.modal-footer {
+    background-color: #111111;
+}
+
+.modal-header {
+    background-color: #111111;
+    color: white
+}
+
+.modal-body {
+    background-color: #111111;
+    color: white
+}
+
+.modal-txt {
+    border-color: var(--primary-color-1);
+    color: var(--primary-color-1);
+}
+
+.modal-body ul li {
+    text-align: left;
+    padding: 1rem auto;
+}
+
+.modal-txt:hover {
+    border-color: var(--primary-color-1);
+    background-color: var(--primary-color-1);
+    /* color: white; */
+}
+
+@media all and (max-width: 768px) {
+    .modal {
+        
+        font-size: 0.8rem;
+    }
+}
 /* video-button close */
 
 .clearfix {
