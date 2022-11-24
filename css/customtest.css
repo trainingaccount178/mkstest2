@@ -166,6 +166,10 @@
   position: relative;
 }
 
+.ptest {
+  margin-right: -20%;
+}
+
 @media screen and (max-width: 600px) {
   .tickettext {
     margin: auto;
@@ -178,6 +182,12 @@
     margin-top: 10px;
     padding: 5px 10px;
   }
+  .flextesting3 {
+    padding-left: 5%;
+  }
+  .ptest {
+    margin: right -100px !important;
+  }
 }
 
 .invis {
@@ -186,12 +196,12 @@
 /* ipad media query */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .wm {
-    font-size: 150px;
+    font-size: 140px;
     position: static;
   }
 
   .wm.dark.wm-border {
-    font-size: 150px;
+    font-size: 140px;
   }
   .custom-sm-4 {
     max-width: 50%;
@@ -200,5 +210,13 @@
   }
   .sc-info {
     width: 100% !important;
+  }
+  .flextesting3 {
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+    padding-left: 3%;
+  }
+  .ptest {
+    width: 100%;
   }
 }
