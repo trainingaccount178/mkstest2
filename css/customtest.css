@@ -166,6 +166,10 @@
   position: relative;
 }
 
+.ptest {
+  margin-right: -20%;
+}
+
 @media screen and (max-width: 600px) {
   .tickettext {
     margin: auto;
@@ -177,6 +181,12 @@
     margin: auto;
     margin-top: 10px;
     padding: 5px 10px;
+  }
+  .flextesting3 {
+    padding-left: 5%;
+  }
+  .ptest {
+    margin: right -100px !important;
   }
 }
 
@@ -201,10 +211,12 @@
   .sc-info {
     width: 100% !important;
   }
-}
-.wm {
-  font-size: 180px;
-}
-.wm.dark.wm-border {
-  font-size: 180px;
+  .flextesting3 {
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+    padding-left: 3%;
+  }
+  .ptest {
+    width: 100%;
+  }
 }
