@@ -186,12 +186,12 @@
 /* ipad media query */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .wm {
-    font-size: 150px;
+    font-size: 140px;
     position: static;
   }
 
   .wm.dark.wm-border {
-    font-size: 150px;
+    font-size: 140px;
   }
   .custom-sm-4 {
     max-width: 50%;
