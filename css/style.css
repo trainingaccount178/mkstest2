@@ -4438,6 +4438,24 @@ a.btn-right {
 
 /* team
 	/* ================================================== */
+.speakers-item {
+	/* border: 2px solid rebeccapurple; */
+	padding: 5rem;
+}
+.speakers-flex  {
+	display: grid !important;
+	align-items: center !important;
+	justify-content: center !important;
+
+	grid-template-columns: repeat(2, 1fr);
+
+	/* border: 2px solid red; */
+	width: 90vw;
+	gap: 0;
+	margin: 0;
+	padding: 0rem;
+}
+
 .team {
 	margin-bottom: 30px;
 	text-align: center;
@@ -4639,6 +4657,23 @@ a.btn-right {
 }
 
 @media all and (max-width: 768px) {
+	.speakers-item {
+		/* border: 2px solid rebeccapurple; */
+		padding: 0rem;
+	}
+	.speakers-flex  {
+		display: grid !important;
+		align-items: center !important;
+		justify-content: center !important;
+	
+		grid-template-columns: repeat(1, 50vh);
+	
+		/* border: 2px solid red; */
+		width: 90vw;
+		gap: 1rem;
+		margin: 0;
+		padding: 0rem;
+	}
 	.footer-main-sec {
 		flex-direction: column;
 		justify-content: center;
